@@ -35,6 +35,9 @@ namespace PlannerMSQL.Models
         public DbSet<Voting> Votings { get; set; }
         public DbSet<Vote> Votes { get; set; }
         public DbSet<VotingAnswer> VotingAnswers { get; set; }
+        public DbSet<MeetingModel> MeetingModels { get; set; }
+        public DbSet<EventModel> EventModels { get; set; }
+        public DbSet<ExpenseModel> ExpenseModels { get; set; }
     }
 
  }
